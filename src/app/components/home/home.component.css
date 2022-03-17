@@ -1,0 +1,32 @@
+.container {
+  margin-left: 10%;
+}
+
+table {
+  width: 80%;
+}
+
+.mat-row:nth-child(even) {
+  background-color: teal;
+}
+
+.mat-row:nth-child(odd) {
+  background-color: grey;
+}
+
+td.mat-cell:last-of-type,
+td.mat-cell:first-of-type,
+th.mat-header-cell:first-of-type,
+th.mat-header-cell:last-of-type {
+  padding-inline: 24px;
+}
+
+
+.mat-cell {
+  font-size: 12px;
+  font-family: Verdana, Sans-Serif;
+  display: table-cell;
+  height: 48px;
+  vertical-align: middle;
+  border-right: 1px solid white;
+}
