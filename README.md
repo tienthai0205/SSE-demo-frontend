@@ -1,27 +1,13 @@
-# Frontend
+# SSE demo Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.6.
+This is a simple Angular project to test the SSE (Server-sent events) connection between the [Node.js server](https://github.com/tienthai0205/SSE-demo-backend) and the Angular frontend. 
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/home`
 
-## Code scaffolding
+*Note: Backend server also need to be running to test the SSE behaviour. Refer to the Node.js repo above to run the server
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The table will automatically update if there are new events got POST to server
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Author: Tien Thai
